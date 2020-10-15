@@ -6,6 +6,17 @@ Summary：
 | 2020-10-14 |  17  | Letter Combinations of a PhoneNumber | Medium | `res = [tmp1+tmp2 for tmp1 in res for tmp2 in table[nums[i]]]` |
 | 2020-10-14 | 128  |     Longest Consecutive Sequence     |  Hard  |       `if num-1 not in nums_set, while y in nums_set`        |
 | 2020-10-15 | 300  |    Longest Increasing Subsequence    | Medium |     `if nums[i] > nums[k]: dp[i] = max(dp[i], dp[k]+1)`      |
+| 2020-10-15 | 200  |          Number of Islands           | Medium | `dfs: for k in range(4): if not visited[x_next][y_next] and grid[x_next][y_next] == '1': self.dfs(grid, visited, x_next, y_next, m, n)` |
+|            |      |                                      |        |                                                              |
 
 
+
+****
+
+Git 操作：
+
+```shell
+# git add 后如何撤销某些文件(假如不小心add了 aaa.txt)：
+git reset HEAD aaa.txt
+```
 
