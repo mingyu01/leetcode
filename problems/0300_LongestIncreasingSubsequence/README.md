@@ -1,4 +1,4 @@
-$O(n^2)$ 解法的思路：
+`O(n^2)`​ 解法的思路：
 
 - 需要提前申请一个 dp 数组。假设 `len(nums) = n` ，则提前申请一个长度为 n 且全为 1 的数组 dp；
 
@@ -18,7 +18,7 @@ $O(n^2)$ 解法的思路：
 
 
 
-$O(n\log n)$ 解法的思路：
+`O(nlogn)`​ 解法的思路：
 
 参考：[https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)
 
