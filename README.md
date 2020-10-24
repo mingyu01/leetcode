@@ -7,7 +7,7 @@ Summary：
 | 2020-10-14 | 128  |     Longest Consecutive Sequence     |  Hard  |       `if num-1 not in nums_set, while y in nums_set`        |
 | 2020-10-15 | 300  |    Longest Increasing Subsequence    | Medium |     `if nums[i] > nums[k]: dp[i] = max(dp[i], dp[k]+1)`      |
 | 2020-10-15 | 200  |          Number of Islands           | Medium | `dfs: for k in range(4): if not visited[x_next][y_next] and grid[x_next][y_next] == '1': self.dfs(grid, visited, x_next, y_next, m, n)` |
-|            |      |                                      |        |                                                              |
+| 2020-10-24 | 139  |              Word Break              | Medium | dp: `for i in range(1, n+1): for j in range(i): if dp[j] and s[j:i] in wordDict: dp[i] = True` |
 
 
 
