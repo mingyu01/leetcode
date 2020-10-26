@@ -9,6 +9,7 @@ Summary：
 | 2020-10-15 | 200  |          Number of Islands           | Medium | `dfs: for k in range(4): if not visited[x_next][y_next] and grid[x_next][y_next] == '1': self.dfs(grid, visited, x_next, y_next, m, n)` |
 | 2020-10-24 | 139  |              Word Break              | Medium | dp: `for i in range(1, n+1): for j in range(i): if dp[j] and s[j:i] in wordDict: dp[i] = True` |
 | 2020-10-24 | 1143 |      Longest Common Subsequence      | Medium | `dp[i][j]: if text1[i-1] == text2[j-1]: dp[i][j] = dp[i-1][j-1] + 1 else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])` |
+| 2020-10-26 | 146  |              LRU Cache               | Medium | `HashMap + Double LinkedList: self.key = k self.val = v self.next = None self.prev = None` |
 
 
 
