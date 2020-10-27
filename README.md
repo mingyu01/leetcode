@@ -11,6 +11,7 @@ Summary：
 | 2020-10-24 | 1143 |      Longest Common Subsequence      | Medium | `dp[i][j]: if text1[i-1] == text2[j-1]: dp[i][j] = dp[i-1][j-1] + 1 else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])` |
 | 2020-10-26 | 146  |              LRU Cache               | Medium | `HashMap + Double LinkedList: self.key = k self.val = v self.next = None self.prev = None` |
 | 2020-10-26 |  78  |               Subsets                | Medium |     `for num in nums: res += [ele+[num] for ele in res]`     |
+| 2020-10-27 | 152  |       Maximum Product Subarray       | Medium | `for i in range(len(nums)): candidates = (nums[i], cur_max*nums[i], cur_min*nums[i])` |
 
 
 
