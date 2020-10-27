@@ -1,4 +1,3 @@
-import copy
 class Solution(object):
     def maxProduct(self, nums):
         """
