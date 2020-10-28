@@ -12,6 +12,7 @@ Summary：
 | 2020-10-26 | 146  |              LRU Cache               | Medium | `HashMap + Double LinkedList: self.key = k self.val = v self.next = None self.prev = None` |
 | 2020-10-26 |  78  |               Subsets                | Medium |     `for num in nums: res += [ele+[num] for ele in res]`     |
 | 2020-10-27 | 152  |       Maximum Product Subarray       | Medium | `for i in range(len(nums)): candidates = (nums[i], cur_max*nums[i], cur_min*nums[i])` |
+| 2020-10-28 | 368  |       Largest Divisible Subset       | Medium | `for i in range(len(nums)): for j in range(i): if nums[i] % nums[j] == 0 and dp[i] < dp[j] + 1: dp[i] = dp[j] + 1 parent[i] = j` |
 
 
 
