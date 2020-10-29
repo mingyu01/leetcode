@@ -13,6 +13,7 @@ Summary：
 | 2020-10-26 |  78  |               Subsets                | Medium |     `for num in nums: res += [ele+[num] for ele in res]`     |
 | 2020-10-27 | 152  |       Maximum Product Subarray       | Medium | `for i in range(len(nums)): candidates = (nums[i], cur_max*nums[i], cur_min*nums[i])` |
 | 2020-10-28 | 368  |       Largest Divisible Subset       | Medium | `for i in range(len(nums)): for j in range(i): if nums[i] % nums[j] == 0 and dp[i] < dp[j] + 1: dp[i] = dp[j] + 1 parent[i] = j` |
+| 2020-10-29 | 516  |   Longest Palindromic Subsequence    | Medium | `for i in range(n-1, -1, -1): dp[i][i] = 1 for j in range(i+1, n): if s[i] == s[j]: dp[i][j] = dp[i+1][j-1] + 2 else: dp[i][j] = max(dp[i+1][j], dp[i][j-1])` |
 
 
 
